@@ -1,0 +1,25 @@
+This has RightNAM => reducing sugar ie. RightNAM with O1 terminated with HO1.
+
+Follow:
+copy newresidues_chains* tex          from $Linking$ to /STEP1LinkandBridgePentaGlycine/inputs/. 
+copy newbonds_ordered.dat             from $Linking$ to /STEP1LinkandBridgePentaGlycine/inputs/.
+copy number_residues.tex              from $Linking$ to /STEP1LinkandBridgePentaGlycine/inputs/.
+copy newreport.tex                    from $Linking$ to /STEP1LinkandBridgePentaGlycine/inputs/.
+
+copy allchains.tex                    from $Freesimu/create_topology/STEP1/inputs$  to  /STEP1LinkandBridgePentaGlycine/inputs/.
+copy NAG_NAM_periodiclinks.tex        from $Freesimu/create_topology/STEP1/inputs$  to  /STEP1LinkandBridgePentaGlycine/inputs/.
+
+NOTE: OR do=>  ./get_allinputs.sh  [same copy commands in bashfile]
+
+
+vi mvscript.sh  (enter no of chains)
+
+./mvscript.sh 
+
+STEP1LinkandBridgePentaGlycine:  vi createitp.f  
+            (enter no of chains, atoms, maximum no of residues in a chain (maxr) (see newreport.tex for maxr)
+
+gfortran createitp.f 
+
+it generates few files in /outputs
+%%%%%%%%%%%%%%SUCCESSFULLY CLOSED WITH HARI BOL! %%%%%%%%%%%%%%%%
