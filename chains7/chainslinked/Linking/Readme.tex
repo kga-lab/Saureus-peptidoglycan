@@ -1,0 +1,18 @@
+mainpgm file :-> createlinks.f 
+steps to be followed...
+1) copy allchains.tex, residues_chain1, residues_chain2, atominfo.dat from STEP1 of free chains simulation. Also copy traj_glycan.gro from free-chains simulation.
+
+2) Also copy last gro file from Free-chains simulation.system_prod.gro
+
+3) copy allchains.tex to newallchains.tex and open newallchains.tex, rename the content of this file to newresidues_chain1.tex, newresidues_chain2.tex.
+
+4) Supply necessary information like no of atoms, no of chains etc in file :*createlinks.f*
+  The copy the selectedcontacts.dat to selectedcontacs_chosen.dat. And modify the last column with 1 = > cross-link, 0==> only bridge-link  
+
+5) gfortran createlinks.f ;; ./a.out
+
+6) Also note down the displayed report on screen, which reports no of residues in each chain and no of atoms in each chain.
+  IMPORTANT FILES TO BE USED FOR ITP GENERATION ARE:
+newallchains.tex, newresidues_chain*.tex, newbonds_ordered.dat,number_residues.tex
+ OTHER IMPORTANT FILES:
+ iniconfig.gro 
