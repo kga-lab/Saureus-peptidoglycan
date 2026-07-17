@@ -1,0 +1,41 @@
+This has RightNAM => reducing sugar ie. RightNAM with O1 terminated with HO1.
+Also GLY atom labels are from Carbonyl carbon. So do not try to mix  or copy any files from other folders, without knowing what you are copying.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+$/STEP1LinkandBridgePentaGlycine:$ 
+
+Follow:
+copy newresidues_chains* tex          from $Linking$ to /STEP1LinkandBridgePentaGlycine/inputs/.
+copy newbonds_ordered.dat             from $Linking$ to /STEP1LinkandBridgePentaGlycine/inputs/.
+copy number_residues.tex              from $Linking$ to /STEP1LinkandBridgePentaGlycine/inputs/.
+copy newreport.tex                    from $Linking$ to /STEP1LinkandBridgePentaGlycine/inputs/.
+
+copy allchains.tex                    from $Freesimu/create_topology/STEP1/inputs$  to  /STEP1LinkandBridgePentaGlycine/inputs/.
+copy NAG_NAM_periodiclinks.tex        from $Freesimu/create_topology/STEP1/inputs$  to  /STEP1LinkandBridgePentaGlycine/inputs/.
+
+vi mvscript.sh  (enter no of chains)
+
+./mvscript.sh
+
+STEP1LinkandBridgePentaGlycine:  vi createitp.f
+            (enter no of chains, atoms, maximum no of residues in a chain (maxr) (see newreport.tex for maxr)
+
+gfortran -mcmodel=large createitp.f  (and ./a.out)
+
+it generates few files in /outputs
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+$/STEP2:$
+copy all files from /STEP1LinkandBridgePentaGlycine/outputs to  STEP2/inputs
+vi createtypes.f  (enter no of atoms)
+gfortran createtypes.f  (and ./a.out)
+
+it generates few files in /outputs
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+$/STEP3:$
+copy all files from /STEP2/outputs to  STEP3/inputs
+vi createFF.f  (enter no of atoms)
+gfortran createFF.f  (and ./a.out)
+
+it generates a file forcefield.itp in /outputs
+%%%%%%%%%%%%%%SUCCESSFULLY CLOSED WITH HARI BOL! %%%%%%%%%%%%%%%%
+
