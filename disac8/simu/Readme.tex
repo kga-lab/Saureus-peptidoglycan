@@ -1,0 +1,58 @@
+%%%%%%%%% get initial configuration for glycan  and keep glycan at the center of the box
+1) cp glycan.gro from iniconfig folder.
+2) gmx editconf -f glycan.gro -box 11 11 11 -center 5.5 5.5 5.5 -o glycan_fix.gro -resnr 1
+%%%%%%%%%%%solvate
+3) gmx solvate -cp glycan_fix.gro -cs spc216.gro -p topol.top -o system_sol.gro 
+ change in topol.top the name of SOL => TIP3, and in system_sol.gro HW1=> H1, HW2=>H2, OW=>OH2
+%%%%%%%%%%%%% since net charge = 0, no ions in the system %%%%%%%%%%%%%
+%%%%%%%%%%%%%%%make index %%%%%%%%%
+4) gmx make_ndx -f system_sol.gro -o index.ndx 
+  name the group for glycan atoms : glycan
+
+%%%%%%%%%%%%%%%Energy Minimization%%%%%%%%%
+5) gmx grompp -f step1_mini.mdp -c system_sol.gro -p topol.top -n index.ndx -o system_mini.tpr -r system_sol.gro 
+
+%%%%%%%%%%%%%%Equilibration %%%%%%%%%%%%%
+6) gmx grompp -f step2_eq1.mdp -c system_mini.gro -p topol.top -n index.ndx -o system_eq1.tpr -r system_mini.gro 
+    run this on tue
+
+7) gmx grompp -f step2_eq2.mdp -c system_eq1.gro -p topol.top -t system_eq1.cpt  -n index.ndx -o system_eq2.tpr -r system_eq1.gro 
+    run this on tue
+
+8) gmx grompp -f step3_eq3.mdp -c system_eq2.gro -p topol.top -t system_eq2.cpt -n index.ndx -o system_eq3.tpr  (this is 5 ns npt without restraints)
+
+9) gmx grompp -f step4_prod.mdp -c system_eq3.gro -p topol.top -t system_eq3.cpt -n index.ndx -o system_prod.tpr 
+(400 ns)
+%%%%%%%%%%%%%ANALYSIS IN FINAL_RESULTS FOLDER %%%%%%%%%%%%
+(A) COMPUTE End-to-End distance Re:
+
+ vi index_Re.ndx (open a new file) 
+   write *[Atoms1and946]* these are atoms 1 ATOM (C1 of NAG at one end of the peptidoglycan chain) and 946 ATOM (C1 of NAM of the other end of the peptidoglycan chain).
+         *1  946* 
+
+ gmx polystat -s system_prod.tpr -f system_prod.xtc -n index_Re.ndx -b 100000 -o polystat_Re.xvg 
+              ANS = 5.37 nm  
+            compute_mean_variance.m => 5.32 (+-) 0.0019 nm
+
+
+(B) COMPUTE EQuilibrium Angle between successive peptides:
+ gmx trjconv -s system_prod.tpr -f system_prod.xtc -pbc mol -n index.ndx -o traj_glycan_pbc.gro
+
+      run myscript : myscript_makendx_pepstems.sh 
+                 This generates two groups for C_of NAM and OC2_of last DAL. using this, make two dat files=> C_NAM.dat and OC2_DAL.dat (just copy index_pepstems.ndx to C_NAM.dat and OC2_DAL.dat). 
+
+     gfortran compute_angles.f  and ./a.out
+       this generates angle_peptidestems.dat 
+
+     gfortran make_histogram_angle.f  and ./a.out 
+       this generates histogram: histo_angle_peptidestems_8mer.dat
+           ANS = 96 degree  (74.5 (+-) 3.5 using compute_mean_variance.m)
+           Most probable = 90
+
+        NOTE: traj_glycan_pbc.gro was deleted after use due to large size.
+
+
+%%%%%%%%%%%%%%%%%%%% CLOSED SUCCESSFULLY WITH  HARI BOL! %%%%%%%%%%%%%%%%%%%                
+
+
+
