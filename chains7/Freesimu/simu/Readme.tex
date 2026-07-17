@@ -1,0 +1,65 @@
+system = 7 chains, one layer, (11921 atoms)
+         73064 water (3*73064 atoms)
+        ======== 
+         total = 231113
+
+       Box size ~ 14x14x12 nm
+
+
+2) Do energy minimization of this glycan solute.
+
+gmx grompp -f step1_mini.mdp -c glycan_fix.gro
+ -p topol.top -o glycan_mini.tpr -r glycan_fix.gro
+
+  gmx mdrun -v -deffnm glycan_mini
+
+
+3) SOLVATE: 
+gmx solvate -cp glycan_mini.gro -cs spc216.gro -p topol.top -o system.gro
+   
+  vi system.gro 
+   :%s/HW1/ H1/g
+   :%s/HW2/ H2/g
+   :%s/ OW/OH2/g
+                    Also change SOL to TIP3  in topol.top  
+
+
+3) ENERGY MINIMIZATION: (Remember: net charge is zero, so no genion step)
+    gmx grompp -f step1_mini.mdp -c system.gro -p topol.top -o system_mini.tpr -r system.gro 
+
+    gmx mdrun -v -deffnm system_mini  (boston)
+
+
+3b) \Make Index:
+   gmx make_ndx -f system_mini.gro 
+     (select appropriate groups to get a new group= glycan)
+
+4) \EQUILIBRATE NVT  
+   gmx grompp -f step2_eq1.mdp -c system_mini.gro -p topol.top -o system_eq1.tpr -r system_mini.gro -n index.ndx 
+   
+   gmx mdrun -v -deffnm system_eq1   
+
+
+
+5)  \EQUILIBRATE NPT
+
+   gmx grompp -f step2_eq2.mdp -c system_eq1.gro -p topol.top -t system_eq1.cpt  -o system_eq2.tpr -n index.ndx -r system_eq1.gro
+
+   gmx mdrun -v -deffnm system_eq2 (tue)
+
+%%%%%%%%%%%%% BAKI CHHE, because we decided to setup a smaller patch of chains5 for PMF
+
+%%%%%%%%Restarted from here:
+
+ gmx grompp -f step3_eq3.mdp -c system_eq2.gro -p topol.top -t system_eq2.cpt  -o system_eq3.tpr -n index.ndx -r system_eq2.gro (20 ns)
+ 
+
+%%%%%%%%%% Freesimu Results Analysis %%%%%%%%%
+      gmx trjconv -s system_eq3.tpr -f system_eq3.xtc -n index.ndx -o traj_glycan.gro -pbc atom 
+      gmx trjconv -s system_eq3.tpr -f system_eq3.gro -pbc atom -n index.ndx -o system_eq3_pbc.gro 
+     
+%%%%%%%%% NOW Go to Linking %%%%%
+       mv trj_glycan.gro to Linking folder.
+       mv system_eq3_pbc.gro to Linking folder.
+
+%%%%%%%%% CLOSED SUCCESSFULLY WITH HARI BOL %%%%%%%%%%% 
