@@ -1,0 +1,9 @@
+#nr. atom atomtype  charge   mass
+GLY
+1    C     C      0.51    12.0110
+2    O     O     -0.51    15.9994
+3    CA    CT2   -0.02    12.0110
+4    HA1   HB2    0.09     1.0080
+5    HA2   HB2    0.09     1.0080
+6    N     NH1   -0.47    14.0070
+7    HN    H      0.31     1.0080

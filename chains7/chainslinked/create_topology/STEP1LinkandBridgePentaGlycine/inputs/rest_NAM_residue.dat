@@ -1,0 +1,26 @@
+#positin_restraints  18
+1    1    fc_bb    fc_bb    fc_bb     
+3    1    fc_bb    fc_bb    fc_bb
+5    1    fc_bb    fc_bb    fc_bb
+6    1    fc_bb    fc_bb    fc_bb
+8    1    fc_sc    fc_sc    fc_sc
+10   1    fc_sc    fc_sc    fc_sc
+11   1    fc_sc    fc_sc    fc_sc
+12   1    fc_sc    fc_sc    fc_sc
+16   1    fc_bb    fc_bb    fc_bb
+18   1    fc_sc    fc_sc    fc_sc
+19   1    fc_sc    fc_sc    fc_sc
+21   1    fc_sc    fc_sc    fc_sc
+22   1    fc_sc    fc_sc    fc_sc
+23   1    fc_sc    fc_sc    fc_sc
+27   1    fc_bb    fc_bb    fc_bb
+29   1    fc_sc    fc_sc    fc_sc
+30   1    fc_bb    fc_bb    fc_bb
+33   1    fc_sc    fc_sc    fc_sc
+#dihedral_restraints 6
+1     6     16    27     1   -fdx   fdy  fdz
+3     5     1     6      1   -fdx   fdy  fdz
+5     1     6     16     1    fdx   fdy  fdz
+6     16    27    3      1    fdx   fdy  fdz
+16    27    3     5      1   -fdx   fdy  fdz
+27    3     5     1      1    fdx   fdy  fdz
