@@ -1,0 +1,11 @@
+#positin_restraints  9
+1    1    fax      fay      faz
+3    1    fax      fay      faz
+5    1    fax      fay      faz
+8    1    fax      fay      faz
+11   1    fax      fay      faz
+14   1    fax      fay      faz
+17   1    fax      fay      faz
+21   1    fax      fay      faz
+22   1    fax      fay      faz
+#dihedral_restraints 0
