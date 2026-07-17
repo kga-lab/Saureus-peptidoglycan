@@ -1,0 +1,1093 @@
+[ dihedral_restraints ]
+    1     6    16    20     1     -fdx      fdy      fdz
+    3     5     1     6     1     -fdx      fdy      fdz
+    5     1     6    16     1      fdx      fdy      fdz
+    6    16    20     3     1      fdx      fdy      fdz
+   16    20     3     5     1     -fdx      fdy      fdz
+   20     3     5     1     1      fdx      fdy      fdz
+   28    33    43    54     1     -fdx      fdy      fdz
+   30    32    28    33     1     -fdx      fdy      fdz
+   32    28    33    43     1      fdx      fdy      fdz
+   33    43    54    30     1      fdx      fdy      fdz
+   43    54    30    32     1     -fdx      fdy      fdz
+   54    30    32    28     1      fdx      fdy      fdz
+  132   137   147   151     1     -fdx      fdy      fdz
+  134   136   132   137     1     -fdx      fdy      fdz
+  136   132   137   147     1      fdx      fdy      fdz
+  137   147   151   134     1      fdx      fdy      fdz
+  147   151   134   136     1     -fdx      fdy      fdz
+  151   134   136   132     1      fdx      fdy      fdz
+  159   164   174   185     1     -fdx      fdy      fdz
+  161   163   159   164     1     -fdx      fdy      fdz
+  163   159   164   174     1      fdx      fdy      fdz
+  164   174   185   161     1      fdx      fdy      fdz
+  174   185   161   163     1     -fdx      fdy      fdz
+  185   161   163   159     1      fdx      fdy      fdz
+  296   301   311   315     1     -fdx      fdy      fdz
+  298   300   296   301     1     -fdx      fdy      fdz
+  300   296   301   311     1      fdx      fdy      fdz
+  301   311   315   298     1      fdx      fdy      fdz
+  311   315   298   300     1     -fdx      fdy      fdz
+  315   298   300   296     1      fdx      fdy      fdz
+  323   328   338   349     1     -fdx      fdy      fdz
+  325   327   323   328     1     -fdx      fdy      fdz
+  327   323   328   338     1      fdx      fdy      fdz
+  328   338   349   325     1      fdx      fdy      fdz
+  338   349   325   327     1     -fdx      fdy      fdz
+  349   325   327   323     1      fdx      fdy      fdz
+  427   432   442   446     1     -fdx      fdy      fdz
+  429   431   427   432     1     -fdx      fdy      fdz
+  431   427   432   442     1      fdx      fdy      fdz
+  432   442   446   429     1      fdx      fdy      fdz
+  442   446   429   431     1     -fdx      fdy      fdz
+  446   429   431   427     1      fdx      fdy      fdz
+  454   459   469   480     1     -fdx      fdy      fdz
+  456   458   454   459     1     -fdx      fdy      fdz
+  458   454   459   469     1      fdx      fdy      fdz
+  459   469   480   456     1      fdx      fdy      fdz
+  469   480   456   458     1     -fdx      fdy      fdz
+  480   456   458   454     1      fdx      fdy      fdz
+  547   552   562   566     1     -fdx      fdy      fdz
+  549   551   547   552     1     -fdx      fdy      fdz
+  551   547   552   562     1      fdx      fdy      fdz
+  552   562   566   549     1      fdx      fdy      fdz
+  562   566   549   551     1     -fdx      fdy      fdz
+  566   549   551   547     1      fdx      fdy      fdz
+  574   579   589   600     1     -fdx      fdy      fdz
+  576   578   574   579     1     -fdx      fdy      fdz
+  578   574   579   589     1      fdx      fdy      fdz
+  579   589   600   576     1      fdx      fdy      fdz
+  589   600   576   578     1     -fdx      fdy      fdz
+  600   576   578   574     1      fdx      fdy      fdz
+  711   716   726   730     1     -fdx      fdy      fdz
+  713   715   711   716     1     -fdx      fdy      fdz
+  715   711   716   726     1      fdx      fdy      fdz
+  716   726   730   713     1      fdx      fdy      fdz
+  726   730   713   715     1     -fdx      fdy      fdz
+  730   713   715   711     1      fdx      fdy      fdz
+  738   743   753   764     1     -fdx      fdy      fdz
+  740   742   738   743     1     -fdx      fdy      fdz
+  742   738   743   753     1      fdx      fdy      fdz
+  743   753   764   740     1      fdx      fdy      fdz
+  753   764   740   742     1     -fdx      fdy      fdz
+  764   740   742   738     1      fdx      fdy      fdz
+  831   836   846   850     1     -fdx      fdy      fdz
+  833   835   831   836     1     -fdx      fdy      fdz
+  835   831   836   846     1      fdx      fdy      fdz
+  836   846   850   833     1      fdx      fdy      fdz
+  846   850   833   835     1     -fdx      fdy      fdz
+  850   833   835   831     1      fdx      fdy      fdz
+  858   863   873   884     1     -fdx      fdy      fdz
+  860   862   858   863     1     -fdx      fdy      fdz
+  862   858   863   873     1      fdx      fdy      fdz
+  863   873   884   860     1      fdx      fdy      fdz
+  873   884   860   862     1     -fdx      fdy      fdz
+  884   860   862   858     1      fdx      fdy      fdz
+  962   967   977   981     1     -fdx      fdy      fdz
+  964   966   962   967     1     -fdx      fdy      fdz
+  966   962   967   977     1      fdx      fdy      fdz
+  967   977   981   964     1      fdx      fdy      fdz
+  977   981   964   966     1     -fdx      fdy      fdz
+  981   964   966   962     1      fdx      fdy      fdz
+  989   994  1004  1015     1     -fdx      fdy      fdz
+  991   993   989   994     1     -fdx      fdy      fdz
+  993   989   994  1004     1      fdx      fdy      fdz
+  994  1004  1015   991     1      fdx      fdy      fdz
+ 1004  1015   991   993     1     -fdx      fdy      fdz
+ 1015   991   993   989     1      fdx      fdy      fdz
+ 1082  1087  1097  1101     1     -fdx      fdy      fdz
+ 1084  1086  1082  1087     1     -fdx      fdy      fdz
+ 1086  1082  1087  1097     1      fdx      fdy      fdz
+ 1087  1097  1101  1084     1      fdx      fdy      fdz
+ 1097  1101  1084  1086     1     -fdx      fdy      fdz
+ 1101  1084  1086  1082     1      fdx      fdy      fdz
+ 1109  1114  1124  1135     1     -fdx      fdy      fdz
+ 1111  1113  1109  1114     1     -fdx      fdy      fdz
+ 1113  1109  1114  1124     1      fdx      fdy      fdz
+ 1114  1124  1135  1111     1      fdx      fdy      fdz
+ 1124  1135  1111  1113     1     -fdx      fdy      fdz
+ 1135  1111  1113  1109     1      fdx      fdy      fdz
+ 1213  1218  1228  1232     1     -fdx      fdy      fdz
+ 1215  1217  1213  1218     1     -fdx      fdy      fdz
+ 1217  1213  1218  1228     1      fdx      fdy      fdz
+ 1218  1228  1232  1215     1      fdx      fdy      fdz
+ 1228  1232  1215  1217     1     -fdx      fdy      fdz
+ 1232  1215  1217  1213     1      fdx      fdy      fdz
+ 1240  1245  1255  1266     1     -fdx      fdy      fdz
+ 1242  1244  1240  1245     1     -fdx      fdy      fdz
+ 1244  1240  1245  1255     1      fdx      fdy      fdz
+ 1245  1255  1266  1242     1      fdx      fdy      fdz
+ 1255  1266  1242  1244     1     -fdx      fdy      fdz
+ 1266  1242  1244  1240     1      fdx      fdy      fdz
+ 1344  1349  1359  1363     1     -fdx      fdy      fdz
+ 1346  1348  1344  1349     1     -fdx      fdy      fdz
+ 1348  1344  1349  1359     1      fdx      fdy      fdz
+ 1349  1359  1363  1346     1      fdx      fdy      fdz
+ 1359  1363  1346  1348     1     -fdx      fdy      fdz
+ 1363  1346  1348  1344     1      fdx      fdy      fdz
+ 1371  1376  1386  1397     1     -fdx      fdy      fdz
+ 1373  1375  1371  1376     1     -fdx      fdy      fdz
+ 1375  1371  1376  1386     1      fdx      fdy      fdz
+ 1376  1386  1397  1373     1      fdx      fdy      fdz
+ 1386  1397  1373  1375     1     -fdx      fdy      fdz
+ 1397  1373  1375  1371     1      fdx      fdy      fdz
+ 1475  1480  1490  1494     1     -fdx      fdy      fdz
+ 1477  1479  1475  1480     1     -fdx      fdy      fdz
+ 1479  1475  1480  1490     1      fdx      fdy      fdz
+ 1480  1490  1494  1477     1      fdx      fdy      fdz
+ 1490  1494  1477  1479     1     -fdx      fdy      fdz
+ 1494  1477  1479  1475     1      fdx      fdy      fdz
+ 1502  1507  1517  1528     1     -fdx      fdy      fdz
+ 1504  1506  1502  1507     1     -fdx      fdy      fdz
+ 1506  1502  1507  1517     1      fdx      fdy      fdz
+ 1507  1517  1528  1504     1      fdx      fdy      fdz
+ 1517  1528  1504  1506     1     -fdx      fdy      fdz
+ 1528  1504  1506  1502     1      fdx      fdy      fdz
+ 1639  1644  1654  1658     1     -fdx      fdy      fdz
+ 1641  1643  1639  1644     1     -fdx      fdy      fdz
+ 1643  1639  1644  1654     1      fdx      fdy      fdz
+ 1644  1654  1658  1641     1      fdx      fdy      fdz
+ 1654  1658  1641  1643     1     -fdx      fdy      fdz
+ 1658  1641  1643  1639     1      fdx      fdy      fdz
+ 1666  1671  1681  1692     1     -fdx      fdy      fdz
+ 1668  1670  1666  1671     1     -fdx      fdy      fdz
+ 1670  1666  1671  1681     1      fdx      fdy      fdz
+ 1671  1681  1692  1668     1      fdx      fdy      fdz
+ 1681  1692  1668  1670     1     -fdx      fdy      fdz
+ 1692  1668  1670  1666     1      fdx      fdy      fdz
+ 1770  1775  1785  1789     1     -fdx      fdy      fdz
+ 1772  1774  1770  1775     1     -fdx      fdy      fdz
+ 1774  1770  1775  1785     1      fdx      fdy      fdz
+ 1775  1785  1789  1772     1      fdx      fdy      fdz
+ 1785  1789  1772  1774     1     -fdx      fdy      fdz
+ 1789  1772  1774  1770     1      fdx      fdy      fdz
+ 1797  1802  1812  1823     1     -fdx      fdy      fdz
+ 1799  1801  1797  1802     1     -fdx      fdy      fdz
+ 1801  1797  1802  1812     1      fdx      fdy      fdz
+ 1802  1812  1823  1799     1      fdx      fdy      fdz
+ 1812  1823  1799  1801     1     -fdx      fdy      fdz
+ 1823  1799  1801  1797     1      fdx      fdy      fdz
+ 1901  1906  1916  1920     1     -fdx      fdy      fdz
+ 1903  1905  1901  1906     1     -fdx      fdy      fdz
+ 1905  1901  1906  1916     1      fdx      fdy      fdz
+ 1906  1916  1920  1903     1      fdx      fdy      fdz
+ 1916  1920  1903  1905     1     -fdx      fdy      fdz
+ 1920  1903  1905  1901     1      fdx      fdy      fdz
+ 1928  1933  1943  1954     1     -fdx      fdy      fdz
+ 1930  1932  1928  1933     1     -fdx      fdy      fdz
+ 1932  1928  1933  1943     1      fdx      fdy      fdz
+ 1933  1943  1954  1930     1      fdx      fdy      fdz
+ 1943  1954  1930  1932     1     -fdx      fdy      fdz
+ 1954  1930  1932  1928     1      fdx      fdy      fdz
+ 2021  2026  2036  2040     1     -fdx      fdy      fdz
+ 2023  2025  2021  2026     1     -fdx      fdy      fdz
+ 2025  2021  2026  2036     1      fdx      fdy      fdz
+ 2026  2036  2040  2023     1      fdx      fdy      fdz
+ 2036  2040  2023  2025     1     -fdx      fdy      fdz
+ 2040  2023  2025  2021     1      fdx      fdy      fdz
+ 2048  2053  2063  2074     1     -fdx      fdy      fdz
+ 2050  2052  2048  2053     1     -fdx      fdy      fdz
+ 2052  2048  2053  2063     1      fdx      fdy      fdz
+ 2053  2063  2074  2050     1      fdx      fdy      fdz
+ 2063  2074  2050  2052     1     -fdx      fdy      fdz
+ 2074  2050  2052  2048     1      fdx      fdy      fdz
+ 2141  2146  2156  2160     1     -fdx      fdy      fdz
+ 2143  2145  2141  2146     1     -fdx      fdy      fdz
+ 2145  2141  2146  2156     1      fdx      fdy      fdz
+ 2146  2156  2160  2143     1      fdx      fdy      fdz
+ 2156  2160  2143  2145     1     -fdx      fdy      fdz
+ 2160  2143  2145  2141     1      fdx      fdy      fdz
+ 2168  2173  2183  2194     1     -fdx      fdy      fdz
+ 2170  2172  2168  2173     1     -fdx      fdy      fdz
+ 2172  2168  2173  2183     1      fdx      fdy      fdz
+ 2173  2183  2194  2170     1      fdx      fdy      fdz
+ 2183  2194  2170  2172     1     -fdx      fdy      fdz
+ 2194  2170  2172  2168     1      fdx      fdy      fdz
+ 2272  2277  2287  2291     1     -fdx      fdy      fdz
+ 2274  2276  2272  2277     1     -fdx      fdy      fdz
+ 2276  2272  2277  2287     1      fdx      fdy      fdz
+ 2277  2287  2291  2274     1      fdx      fdy      fdz
+ 2287  2291  2274  2276     1     -fdx      fdy      fdz
+ 2291  2274  2276  2272     1      fdx      fdy      fdz
+ 2299  2304  2314  2325     1     -fdx      fdy      fdz
+ 2301  2303  2299  2304     1     -fdx      fdy      fdz
+ 2303  2299  2304  2314     1      fdx      fdy      fdz
+ 2304  2314  2325  2301     1      fdx      fdy      fdz
+ 2314  2325  2301  2303     1     -fdx      fdy      fdz
+ 2325  2301  2303  2299     1      fdx      fdy      fdz
+ 2392  2397  2407  2411     1     -fdx      fdy      fdz
+ 2394  2396  2392  2397     1     -fdx      fdy      fdz
+ 2396  2392  2397  2407     1      fdx      fdy      fdz
+ 2397  2407  2411  2394     1      fdx      fdy      fdz
+ 2407  2411  2394  2396     1     -fdx      fdy      fdz
+ 2411  2394  2396  2392     1      fdx      fdy      fdz
+ 2419  2424  2434  2445     1     -fdx      fdy      fdz
+ 2421  2423  2419  2424     1     -fdx      fdy      fdz
+ 2423  2419  2424  2434     1      fdx      fdy      fdz
+ 2424  2434  2445  2421     1      fdx      fdy      fdz
+ 2434  2445  2421  2423     1     -fdx      fdy      fdz
+ 2445  2421  2423  2419     1      fdx      fdy      fdz
+ 2523  2528  2538  2542     1     -fdx      fdy      fdz
+ 2525  2527  2523  2528     1     -fdx      fdy      fdz
+ 2527  2523  2528  2538     1      fdx      fdy      fdz
+ 2528  2538  2542  2525     1      fdx      fdy      fdz
+ 2538  2542  2525  2527     1     -fdx      fdy      fdz
+ 2542  2525  2527  2523     1      fdx      fdy      fdz
+ 2550  2555  2565  2576     1     -fdx      fdy      fdz
+ 2552  2554  2550  2555     1     -fdx      fdy      fdz
+ 2554  2550  2555  2565     1      fdx      fdy      fdz
+ 2555  2565  2576  2552     1      fdx      fdy      fdz
+ 2565  2576  2552  2554     1     -fdx      fdy      fdz
+ 2576  2552  2554  2550     1      fdx      fdy      fdz
+ 2654  2659  2669  2673     1     -fdx      fdy      fdz
+ 2656  2658  2654  2659     1     -fdx      fdy      fdz
+ 2658  2654  2659  2669     1      fdx      fdy      fdz
+ 2659  2669  2673  2656     1      fdx      fdy      fdz
+ 2669  2673  2656  2658     1     -fdx      fdy      fdz
+ 2673  2656  2658  2654     1      fdx      fdy      fdz
+ 2681  2686  2696  2707     1     -fdx      fdy      fdz
+ 2683  2685  2681  2686     1     -fdx      fdy      fdz
+ 2685  2681  2686  2696     1      fdx      fdy      fdz
+ 2686  2696  2707  2683     1      fdx      fdy      fdz
+ 2696  2707  2683  2685     1     -fdx      fdy      fdz
+ 2707  2683  2685  2681     1      fdx      fdy      fdz
+ 2818  2823  2833  2837     1     -fdx      fdy      fdz
+ 2820  2822  2818  2823     1     -fdx      fdy      fdz
+ 2822  2818  2823  2833     1      fdx      fdy      fdz
+ 2823  2833  2837  2820     1      fdx      fdy      fdz
+ 2833  2837  2820  2822     1     -fdx      fdy      fdz
+ 2837  2820  2822  2818     1      fdx      fdy      fdz
+ 2845  2850  2860  2871     1     -fdx      fdy      fdz
+ 2847  2849  2845  2850     1     -fdx      fdy      fdz
+ 2849  2845  2850  2860     1      fdx      fdy      fdz
+ 2850  2860  2871  2847     1      fdx      fdy      fdz
+ 2860  2871  2847  2849     1     -fdx      fdy      fdz
+ 2871  2847  2849  2845     1      fdx      fdy      fdz
+ 2949  2954  2964  2968     1     -fdx      fdy      fdz
+ 2951  2953  2949  2954     1     -fdx      fdy      fdz
+ 2953  2949  2954  2964     1      fdx      fdy      fdz
+ 2954  2964  2968  2951     1      fdx      fdy      fdz
+ 2964  2968  2951  2953     1     -fdx      fdy      fdz
+ 2968  2951  2953  2949     1      fdx      fdy      fdz
+ 2976  2981  2991  3002     1     -fdx      fdy      fdz
+ 2978  2980  2976  2981     1     -fdx      fdy      fdz
+ 2980  2976  2981  2991     1      fdx      fdy      fdz
+ 2981  2991  3002  2978     1      fdx      fdy      fdz
+ 2991  3002  2978  2980     1     -fdx      fdy      fdz
+ 3002  2978  2980  2976     1      fdx      fdy      fdz
+ 3113  3118  3128  3132     1     -fdx      fdy      fdz
+ 3115  3117  3113  3118     1     -fdx      fdy      fdz
+ 3117  3113  3118  3128     1      fdx      fdy      fdz
+ 3118  3128  3132  3115     1      fdx      fdy      fdz
+ 3128  3132  3115  3117     1     -fdx      fdy      fdz
+ 3132  3115  3117  3113     1      fdx      fdy      fdz
+ 3140  3145  3155  3166     1     -fdx      fdy      fdz
+ 3142  3144  3140  3145     1     -fdx      fdy      fdz
+ 3144  3140  3145  3155     1      fdx      fdy      fdz
+ 3145  3155  3166  3142     1      fdx      fdy      fdz
+ 3155  3166  3142  3144     1     -fdx      fdy      fdz
+ 3166  3142  3144  3140     1      fdx      fdy      fdz
+ 3233  3238  3248  3252     1     -fdx      fdy      fdz
+ 3235  3237  3233  3238     1     -fdx      fdy      fdz
+ 3237  3233  3238  3248     1      fdx      fdy      fdz
+ 3238  3248  3252  3235     1      fdx      fdy      fdz
+ 3248  3252  3235  3237     1     -fdx      fdy      fdz
+ 3252  3235  3237  3233     1      fdx      fdy      fdz
+ 3260  3265  3275  3286     1     -fdx      fdy      fdz
+ 3262  3264  3260  3265     1     -fdx      fdy      fdz
+ 3264  3260  3265  3275     1      fdx      fdy      fdz
+ 3265  3275  3286  3262     1      fdx      fdy      fdz
+ 3275  3286  3262  3264     1     -fdx      fdy      fdz
+ 3286  3262  3264  3260     1      fdx      fdy      fdz
+ 3399  3404  3414  3418     1     -fdx      fdy      fdz
+ 3401  3403  3399  3404     1     -fdx      fdy      fdz
+ 3403  3399  3404  3414     1      fdx      fdy      fdz
+ 3404  3414  3418  3401     1      fdx      fdy      fdz
+ 3414  3418  3401  3403     1     -fdx      fdy      fdz
+ 3418  3401  3403  3399     1      fdx      fdy      fdz
+ 3426  3431  3441  3452     1     -fdx      fdy      fdz
+ 3428  3430  3426  3431     1     -fdx      fdy      fdz
+ 3430  3426  3431  3441     1      fdx      fdy      fdz
+ 3431  3441  3452  3428     1      fdx      fdy      fdz
+ 3441  3452  3428  3430     1     -fdx      fdy      fdz
+ 3452  3428  3430  3426     1      fdx      fdy      fdz
+ 3530  3535  3545  3549     1     -fdx      fdy      fdz
+ 3532  3534  3530  3535     1     -fdx      fdy      fdz
+ 3534  3530  3535  3545     1      fdx      fdy      fdz
+ 3535  3545  3549  3532     1      fdx      fdy      fdz
+ 3545  3549  3532  3534     1     -fdx      fdy      fdz
+ 3549  3532  3534  3530     1      fdx      fdy      fdz
+ 3557  3562  3572  3583     1     -fdx      fdy      fdz
+ 3559  3561  3557  3562     1     -fdx      fdy      fdz
+ 3561  3557  3562  3572     1      fdx      fdy      fdz
+ 3562  3572  3583  3559     1      fdx      fdy      fdz
+ 3572  3583  3559  3561     1     -fdx      fdy      fdz
+ 3583  3559  3561  3557     1      fdx      fdy      fdz
+ 3661  3666  3676  3680     1     -fdx      fdy      fdz
+ 3663  3665  3661  3666     1     -fdx      fdy      fdz
+ 3665  3661  3666  3676     1      fdx      fdy      fdz
+ 3666  3676  3680  3663     1      fdx      fdy      fdz
+ 3676  3680  3663  3665     1     -fdx      fdy      fdz
+ 3680  3663  3665  3661     1      fdx      fdy      fdz
+ 3688  3693  3703  3714     1     -fdx      fdy      fdz
+ 3690  3692  3688  3693     1     -fdx      fdy      fdz
+ 3692  3688  3693  3703     1      fdx      fdy      fdz
+ 3693  3703  3714  3690     1      fdx      fdy      fdz
+ 3703  3714  3690  3692     1     -fdx      fdy      fdz
+ 3714  3690  3692  3688     1      fdx      fdy      fdz
+ 3781  3786  3796  3800     1     -fdx      fdy      fdz
+ 3783  3785  3781  3786     1     -fdx      fdy      fdz
+ 3785  3781  3786  3796     1      fdx      fdy      fdz
+ 3786  3796  3800  3783     1      fdx      fdy      fdz
+ 3796  3800  3783  3785     1     -fdx      fdy      fdz
+ 3800  3783  3785  3781     1      fdx      fdy      fdz
+ 3808  3813  3823  3834     1     -fdx      fdy      fdz
+ 3810  3812  3808  3813     1     -fdx      fdy      fdz
+ 3812  3808  3813  3823     1      fdx      fdy      fdz
+ 3813  3823  3834  3810     1      fdx      fdy      fdz
+ 3823  3834  3810  3812     1     -fdx      fdy      fdz
+ 3834  3810  3812  3808     1      fdx      fdy      fdz
+ 3945  3950  3960  3964     1     -fdx      fdy      fdz
+ 3947  3949  3945  3950     1     -fdx      fdy      fdz
+ 3949  3945  3950  3960     1      fdx      fdy      fdz
+ 3950  3960  3964  3947     1      fdx      fdy      fdz
+ 3960  3964  3947  3949     1     -fdx      fdy      fdz
+ 3964  3947  3949  3945     1      fdx      fdy      fdz
+ 3972  3977  3987  3998     1     -fdx      fdy      fdz
+ 3974  3976  3972  3977     1     -fdx      fdy      fdz
+ 3976  3972  3977  3987     1      fdx      fdy      fdz
+ 3977  3987  3998  3974     1      fdx      fdy      fdz
+ 3987  3998  3974  3976     1     -fdx      fdy      fdz
+ 3998  3974  3976  3972     1      fdx      fdy      fdz
+ 4109  4114  4124  4128     1     -fdx      fdy      fdz
+ 4111  4113  4109  4114     1     -fdx      fdy      fdz
+ 4113  4109  4114  4124     1      fdx      fdy      fdz
+ 4114  4124  4128  4111     1      fdx      fdy      fdz
+ 4124  4128  4111  4113     1     -fdx      fdy      fdz
+ 4128  4111  4113  4109     1      fdx      fdy      fdz
+ 4136  4141  4151  4162     1     -fdx      fdy      fdz
+ 4138  4140  4136  4141     1     -fdx      fdy      fdz
+ 4140  4136  4141  4151     1      fdx      fdy      fdz
+ 4141  4151  4162  4138     1      fdx      fdy      fdz
+ 4151  4162  4138  4140     1     -fdx      fdy      fdz
+ 4162  4138  4140  4136     1      fdx      fdy      fdz
+ 4275  4280  4290  4294     1     -fdx      fdy      fdz
+ 4277  4279  4275  4280     1     -fdx      fdy      fdz
+ 4279  4275  4280  4290     1      fdx      fdy      fdz
+ 4280  4290  4294  4277     1      fdx      fdy      fdz
+ 4290  4294  4277  4279     1     -fdx      fdy      fdz
+ 4294  4277  4279  4275     1      fdx      fdy      fdz
+ 4302  4307  4317  4328     1     -fdx      fdy      fdz
+ 4304  4306  4302  4307     1     -fdx      fdy      fdz
+ 4306  4302  4307  4317     1      fdx      fdy      fdz
+ 4307  4317  4328  4304     1      fdx      fdy      fdz
+ 4317  4328  4304  4306     1     -fdx      fdy      fdz
+ 4328  4304  4306  4302     1      fdx      fdy      fdz
+ 4395  4400  4410  4414     1     -fdx      fdy      fdz
+ 4397  4399  4395  4400     1     -fdx      fdy      fdz
+ 4399  4395  4400  4410     1      fdx      fdy      fdz
+ 4400  4410  4414  4397     1      fdx      fdy      fdz
+ 4410  4414  4397  4399     1     -fdx      fdy      fdz
+ 4414  4397  4399  4395     1      fdx      fdy      fdz
+ 4422  4427  4437  4448     1     -fdx      fdy      fdz
+ 4424  4426  4422  4427     1     -fdx      fdy      fdz
+ 4426  4422  4427  4437     1      fdx      fdy      fdz
+ 4427  4437  4448  4424     1      fdx      fdy      fdz
+ 4437  4448  4424  4426     1     -fdx      fdy      fdz
+ 4448  4424  4426  4422     1      fdx      fdy      fdz
+ 4561  4566  4576  4580     1     -fdx      fdy      fdz
+ 4563  4565  4561  4566     1     -fdx      fdy      fdz
+ 4565  4561  4566  4576     1      fdx      fdy      fdz
+ 4566  4576  4580  4563     1      fdx      fdy      fdz
+ 4576  4580  4563  4565     1     -fdx      fdy      fdz
+ 4580  4563  4565  4561     1      fdx      fdy      fdz
+ 4588  4593  4603  4614     1     -fdx      fdy      fdz
+ 4590  4592  4588  4593     1     -fdx      fdy      fdz
+ 4592  4588  4593  4603     1      fdx      fdy      fdz
+ 4593  4603  4614  4590     1      fdx      fdy      fdz
+ 4603  4614  4590  4592     1     -fdx      fdy      fdz
+ 4614  4590  4592  4588     1      fdx      fdy      fdz
+ 4681  4686  4696  4700     1     -fdx      fdy      fdz
+ 4683  4685  4681  4686     1     -fdx      fdy      fdz
+ 4685  4681  4686  4696     1      fdx      fdy      fdz
+ 4686  4696  4700  4683     1      fdx      fdy      fdz
+ 4696  4700  4683  4685     1     -fdx      fdy      fdz
+ 4700  4683  4685  4681     1      fdx      fdy      fdz
+ 4708  4713  4723  4734     1     -fdx      fdy      fdz
+ 4710  4712  4708  4713     1     -fdx      fdy      fdz
+ 4712  4708  4713  4723     1      fdx      fdy      fdz
+ 4713  4723  4734  4710     1      fdx      fdy      fdz
+ 4723  4734  4710  4712     1     -fdx      fdy      fdz
+ 4734  4710  4712  4708     1      fdx      fdy      fdz
+ 4812  4817  4827  4831     1     -fdx      fdy      fdz
+ 4814  4816  4812  4817     1     -fdx      fdy      fdz
+ 4816  4812  4817  4827     1      fdx      fdy      fdz
+ 4817  4827  4831  4814     1      fdx      fdy      fdz
+ 4827  4831  4814  4816     1     -fdx      fdy      fdz
+ 4831  4814  4816  4812     1      fdx      fdy      fdz
+ 4839  4844  4854  4865     1     -fdx      fdy      fdz
+ 4841  4843  4839  4844     1     -fdx      fdy      fdz
+ 4843  4839  4844  4854     1      fdx      fdy      fdz
+ 4844  4854  4865  4841     1      fdx      fdy      fdz
+ 4854  4865  4841  4843     1     -fdx      fdy      fdz
+ 4865  4841  4843  4839     1      fdx      fdy      fdz
+ 4932  4937  4947  4951     1     -fdx      fdy      fdz
+ 4934  4936  4932  4937     1     -fdx      fdy      fdz
+ 4936  4932  4937  4947     1      fdx      fdy      fdz
+ 4937  4947  4951  4934     1      fdx      fdy      fdz
+ 4947  4951  4934  4936     1     -fdx      fdy      fdz
+ 4951  4934  4936  4932     1      fdx      fdy      fdz
+ 4959  4964  4974  4985     1     -fdx      fdy      fdz
+ 4961  4963  4959  4964     1     -fdx      fdy      fdz
+ 4963  4959  4964  4974     1      fdx      fdy      fdz
+ 4964  4974  4985  4961     1      fdx      fdy      fdz
+ 4974  4985  4961  4963     1     -fdx      fdy      fdz
+ 4985  4961  4963  4959     1      fdx      fdy      fdz
+ 5063  5068  5078  5082     1     -fdx      fdy      fdz
+ 5065  5067  5063  5068     1     -fdx      fdy      fdz
+ 5067  5063  5068  5078     1      fdx      fdy      fdz
+ 5068  5078  5082  5065     1      fdx      fdy      fdz
+ 5078  5082  5065  5067     1     -fdx      fdy      fdz
+ 5082  5065  5067  5063     1      fdx      fdy      fdz
+ 5090  5095  5105  5116     1     -fdx      fdy      fdz
+ 5092  5094  5090  5095     1     -fdx      fdy      fdz
+ 5094  5090  5095  5105     1      fdx      fdy      fdz
+ 5095  5105  5116  5092     1      fdx      fdy      fdz
+ 5105  5116  5092  5094     1     -fdx      fdy      fdz
+ 5116  5092  5094  5090     1      fdx      fdy      fdz
+ 5183  5188  5198  5202     1     -fdx      fdy      fdz
+ 5185  5187  5183  5188     1     -fdx      fdy      fdz
+ 5187  5183  5188  5198     1      fdx      fdy      fdz
+ 5188  5198  5202  5185     1      fdx      fdy      fdz
+ 5198  5202  5185  5187     1     -fdx      fdy      fdz
+ 5202  5185  5187  5183     1      fdx      fdy      fdz
+ 5210  5215  5225  5236     1     -fdx      fdy      fdz
+ 5212  5214  5210  5215     1     -fdx      fdy      fdz
+ 5214  5210  5215  5225     1      fdx      fdy      fdz
+ 5215  5225  5236  5212     1      fdx      fdy      fdz
+ 5225  5236  5212  5214     1     -fdx      fdy      fdz
+ 5236  5212  5214  5210     1      fdx      fdy      fdz
+ 5314  5319  5329  5333     1     -fdx      fdy      fdz
+ 5316  5318  5314  5319     1     -fdx      fdy      fdz
+ 5318  5314  5319  5329     1      fdx      fdy      fdz
+ 5319  5329  5333  5316     1      fdx      fdy      fdz
+ 5329  5333  5316  5318     1     -fdx      fdy      fdz
+ 5333  5316  5318  5314     1      fdx      fdy      fdz
+ 5341  5346  5356  5367     1     -fdx      fdy      fdz
+ 5343  5345  5341  5346     1     -fdx      fdy      fdz
+ 5345  5341  5346  5356     1      fdx      fdy      fdz
+ 5346  5356  5367  5343     1      fdx      fdy      fdz
+ 5356  5367  5343  5345     1     -fdx      fdy      fdz
+ 5367  5343  5345  5341     1      fdx      fdy      fdz
+ 5445  5450  5460  5464     1     -fdx      fdy      fdz
+ 5447  5449  5445  5450     1     -fdx      fdy      fdz
+ 5449  5445  5450  5460     1      fdx      fdy      fdz
+ 5450  5460  5464  5447     1      fdx      fdy      fdz
+ 5460  5464  5447  5449     1     -fdx      fdy      fdz
+ 5464  5447  5449  5445     1      fdx      fdy      fdz
+ 5472  5477  5487  5498     1     -fdx      fdy      fdz
+ 5474  5476  5472  5477     1     -fdx      fdy      fdz
+ 5476  5472  5477  5487     1      fdx      fdy      fdz
+ 5477  5487  5498  5474     1      fdx      fdy      fdz
+ 5487  5498  5474  5476     1     -fdx      fdy      fdz
+ 5498  5474  5476  5472     1      fdx      fdy      fdz
+ 5609  5614  5624  5628     1     -fdx      fdy      fdz
+ 5611  5613  5609  5614     1     -fdx      fdy      fdz
+ 5613  5609  5614  5624     1      fdx      fdy      fdz
+ 5614  5624  5628  5611     1      fdx      fdy      fdz
+ 5624  5628  5611  5613     1     -fdx      fdy      fdz
+ 5628  5611  5613  5609     1      fdx      fdy      fdz
+ 5636  5641  5651  5662     1     -fdx      fdy      fdz
+ 5638  5640  5636  5641     1     -fdx      fdy      fdz
+ 5640  5636  5641  5651     1      fdx      fdy      fdz
+ 5641  5651  5662  5638     1      fdx      fdy      fdz
+ 5651  5662  5638  5640     1     -fdx      fdy      fdz
+ 5662  5638  5640  5636     1      fdx      fdy      fdz
+ 5740  5745  5755  5759     1     -fdx      fdy      fdz
+ 5742  5744  5740  5745     1     -fdx      fdy      fdz
+ 5744  5740  5745  5755     1      fdx      fdy      fdz
+ 5745  5755  5759  5742     1      fdx      fdy      fdz
+ 5755  5759  5742  5744     1     -fdx      fdy      fdz
+ 5759  5742  5744  5740     1      fdx      fdy      fdz
+ 5767  5772  5782  5793     1     -fdx      fdy      fdz
+ 5769  5771  5767  5772     1     -fdx      fdy      fdz
+ 5771  5767  5772  5782     1      fdx      fdy      fdz
+ 5772  5782  5793  5769     1      fdx      fdy      fdz
+ 5782  5793  5769  5771     1     -fdx      fdy      fdz
+ 5793  5769  5771  5767     1      fdx      fdy      fdz
+ 5871  5876  5886  5890     1     -fdx      fdy      fdz
+ 5873  5875  5871  5876     1     -fdx      fdy      fdz
+ 5875  5871  5876  5886     1      fdx      fdy      fdz
+ 5876  5886  5890  5873     1      fdx      fdy      fdz
+ 5886  5890  5873  5875     1     -fdx      fdy      fdz
+ 5890  5873  5875  5871     1      fdx      fdy      fdz
+ 5898  5903  5913  5924     1     -fdx      fdy      fdz
+ 5900  5902  5898  5903     1     -fdx      fdy      fdz
+ 5902  5898  5903  5913     1      fdx      fdy      fdz
+ 5903  5913  5924  5900     1      fdx      fdy      fdz
+ 5913  5924  5900  5902     1     -fdx      fdy      fdz
+ 5924  5900  5902  5898     1      fdx      fdy      fdz
+ 6035  6040  6050  6054     1     -fdx      fdy      fdz
+ 6037  6039  6035  6040     1     -fdx      fdy      fdz
+ 6039  6035  6040  6050     1      fdx      fdy      fdz
+ 6040  6050  6054  6037     1      fdx      fdy      fdz
+ 6050  6054  6037  6039     1     -fdx      fdy      fdz
+ 6054  6037  6039  6035     1      fdx      fdy      fdz
+ 6062  6067  6077  6088     1     -fdx      fdy      fdz
+ 6064  6066  6062  6067     1     -fdx      fdy      fdz
+ 6066  6062  6067  6077     1      fdx      fdy      fdz
+ 6067  6077  6088  6064     1      fdx      fdy      fdz
+ 6077  6088  6064  6066     1     -fdx      fdy      fdz
+ 6088  6064  6066  6062     1      fdx      fdy      fdz
+ 6199  6204  6214  6218     1     -fdx      fdy      fdz
+ 6201  6203  6199  6204     1     -fdx      fdy      fdz
+ 6203  6199  6204  6214     1      fdx      fdy      fdz
+ 6204  6214  6218  6201     1      fdx      fdy      fdz
+ 6214  6218  6201  6203     1     -fdx      fdy      fdz
+ 6218  6201  6203  6199     1      fdx      fdy      fdz
+ 6226  6231  6241  6252     1     -fdx      fdy      fdz
+ 6228  6230  6226  6231     1     -fdx      fdy      fdz
+ 6230  6226  6231  6241     1      fdx      fdy      fdz
+ 6231  6241  6252  6228     1      fdx      fdy      fdz
+ 6241  6252  6228  6230     1     -fdx      fdy      fdz
+ 6252  6228  6230  6226     1      fdx      fdy      fdz
+ 6330  6335  6345  6349     1     -fdx      fdy      fdz
+ 6332  6334  6330  6335     1     -fdx      fdy      fdz
+ 6334  6330  6335  6345     1      fdx      fdy      fdz
+ 6335  6345  6349  6332     1      fdx      fdy      fdz
+ 6345  6349  6332  6334     1     -fdx      fdy      fdz
+ 6349  6332  6334  6330     1      fdx      fdy      fdz
+ 6357  6362  6372  6383     1     -fdx      fdy      fdz
+ 6359  6361  6357  6362     1     -fdx      fdy      fdz
+ 6361  6357  6362  6372     1      fdx      fdy      fdz
+ 6362  6372  6383  6359     1      fdx      fdy      fdz
+ 6372  6383  6359  6361     1     -fdx      fdy      fdz
+ 6383  6359  6361  6357     1      fdx      fdy      fdz
+ 6494  6499  6509  6513     1     -fdx      fdy      fdz
+ 6496  6498  6494  6499     1     -fdx      fdy      fdz
+ 6498  6494  6499  6509     1      fdx      fdy      fdz
+ 6499  6509  6513  6496     1      fdx      fdy      fdz
+ 6509  6513  6496  6498     1     -fdx      fdy      fdz
+ 6513  6496  6498  6494     1      fdx      fdy      fdz
+ 6521  6526  6536  6547     1     -fdx      fdy      fdz
+ 6523  6525  6521  6526     1     -fdx      fdy      fdz
+ 6525  6521  6526  6536     1      fdx      fdy      fdz
+ 6526  6536  6547  6523     1      fdx      fdy      fdz
+ 6536  6547  6523  6525     1     -fdx      fdy      fdz
+ 6547  6523  6525  6521     1      fdx      fdy      fdz
+ 6658  6663  6673  6677     1     -fdx      fdy      fdz
+ 6660  6662  6658  6663     1     -fdx      fdy      fdz
+ 6662  6658  6663  6673     1      fdx      fdy      fdz
+ 6663  6673  6677  6660     1      fdx      fdy      fdz
+ 6673  6677  6660  6662     1     -fdx      fdy      fdz
+ 6677  6660  6662  6658     1      fdx      fdy      fdz
+ 6685  6690  6700  6711     1     -fdx      fdy      fdz
+ 6687  6689  6685  6690     1     -fdx      fdy      fdz
+ 6689  6685  6690  6700     1      fdx      fdy      fdz
+ 6690  6700  6711  6687     1      fdx      fdy      fdz
+ 6700  6711  6687  6689     1     -fdx      fdy      fdz
+ 6711  6687  6689  6685     1      fdx      fdy      fdz
+ 6822  6827  6837  6841     1     -fdx      fdy      fdz
+ 6824  6826  6822  6827     1     -fdx      fdy      fdz
+ 6826  6822  6827  6837     1      fdx      fdy      fdz
+ 6827  6837  6841  6824     1      fdx      fdy      fdz
+ 6837  6841  6824  6826     1     -fdx      fdy      fdz
+ 6841  6824  6826  6822     1      fdx      fdy      fdz
+ 6849  6854  6864  6875     1     -fdx      fdy      fdz
+ 6851  6853  6849  6854     1     -fdx      fdy      fdz
+ 6853  6849  6854  6864     1      fdx      fdy      fdz
+ 6854  6864  6875  6851     1      fdx      fdy      fdz
+ 6864  6875  6851  6853     1     -fdx      fdy      fdz
+ 6875  6851  6853  6849     1      fdx      fdy      fdz
+ 6986  6991  7001  7005     1     -fdx      fdy      fdz
+ 6988  6990  6986  6991     1     -fdx      fdy      fdz
+ 6990  6986  6991  7001     1      fdx      fdy      fdz
+ 6991  7001  7005  6988     1      fdx      fdy      fdz
+ 7001  7005  6988  6990     1     -fdx      fdy      fdz
+ 7005  6988  6990  6986     1      fdx      fdy      fdz
+ 7013  7018  7028  7039     1     -fdx      fdy      fdz
+ 7015  7017  7013  7018     1     -fdx      fdy      fdz
+ 7017  7013  7018  7028     1      fdx      fdy      fdz
+ 7018  7028  7039  7015     1      fdx      fdy      fdz
+ 7028  7039  7015  7017     1     -fdx      fdy      fdz
+ 7039  7015  7017  7013     1      fdx      fdy      fdz
+ 7150  7155  7165  7169     1     -fdx      fdy      fdz
+ 7152  7154  7150  7155     1     -fdx      fdy      fdz
+ 7154  7150  7155  7165     1      fdx      fdy      fdz
+ 7155  7165  7169  7152     1      fdx      fdy      fdz
+ 7165  7169  7152  7154     1     -fdx      fdy      fdz
+ 7169  7152  7154  7150     1      fdx      fdy      fdz
+ 7177  7182  7192  7203     1     -fdx      fdy      fdz
+ 7179  7181  7177  7182     1     -fdx      fdy      fdz
+ 7181  7177  7182  7192     1      fdx      fdy      fdz
+ 7182  7192  7203  7179     1      fdx      fdy      fdz
+ 7192  7203  7179  7181     1     -fdx      fdy      fdz
+ 7203  7179  7181  7177     1      fdx      fdy      fdz
+ 7281  7286  7296  7300     1     -fdx      fdy      fdz
+ 7283  7285  7281  7286     1     -fdx      fdy      fdz
+ 7285  7281  7286  7296     1      fdx      fdy      fdz
+ 7286  7296  7300  7283     1      fdx      fdy      fdz
+ 7296  7300  7283  7285     1     -fdx      fdy      fdz
+ 7300  7283  7285  7281     1      fdx      fdy      fdz
+ 7308  7313  7323  7334     1     -fdx      fdy      fdz
+ 7310  7312  7308  7313     1     -fdx      fdy      fdz
+ 7312  7308  7313  7323     1      fdx      fdy      fdz
+ 7313  7323  7334  7310     1      fdx      fdy      fdz
+ 7323  7334  7310  7312     1     -fdx      fdy      fdz
+ 7334  7310  7312  7308     1      fdx      fdy      fdz
+ 7412  7417  7427  7431     1     -fdx      fdy      fdz
+ 7414  7416  7412  7417     1     -fdx      fdy      fdz
+ 7416  7412  7417  7427     1      fdx      fdy      fdz
+ 7417  7427  7431  7414     1      fdx      fdy      fdz
+ 7427  7431  7414  7416     1     -fdx      fdy      fdz
+ 7431  7414  7416  7412     1      fdx      fdy      fdz
+ 7439  7444  7454  7465     1     -fdx      fdy      fdz
+ 7441  7443  7439  7444     1     -fdx      fdy      fdz
+ 7443  7439  7444  7454     1      fdx      fdy      fdz
+ 7444  7454  7465  7441     1      fdx      fdy      fdz
+ 7454  7465  7441  7443     1     -fdx      fdy      fdz
+ 7465  7441  7443  7439     1      fdx      fdy      fdz
+ 7578  7583  7593  7597     1     -fdx      fdy      fdz
+ 7580  7582  7578  7583     1     -fdx      fdy      fdz
+ 7582  7578  7583  7593     1      fdx      fdy      fdz
+ 7583  7593  7597  7580     1      fdx      fdy      fdz
+ 7593  7597  7580  7582     1     -fdx      fdy      fdz
+ 7597  7580  7582  7578     1      fdx      fdy      fdz
+ 7605  7610  7620  7631     1     -fdx      fdy      fdz
+ 7607  7609  7605  7610     1     -fdx      fdy      fdz
+ 7609  7605  7610  7620     1      fdx      fdy      fdz
+ 7610  7620  7631  7607     1      fdx      fdy      fdz
+ 7620  7631  7607  7609     1     -fdx      fdy      fdz
+ 7631  7607  7609  7605     1      fdx      fdy      fdz
+ 7742  7747  7757  7761     1     -fdx      fdy      fdz
+ 7744  7746  7742  7747     1     -fdx      fdy      fdz
+ 7746  7742  7747  7757     1      fdx      fdy      fdz
+ 7747  7757  7761  7744     1      fdx      fdy      fdz
+ 7757  7761  7744  7746     1     -fdx      fdy      fdz
+ 7761  7744  7746  7742     1      fdx      fdy      fdz
+ 7769  7774  7784  7795     1     -fdx      fdy      fdz
+ 7771  7773  7769  7774     1     -fdx      fdy      fdz
+ 7773  7769  7774  7784     1      fdx      fdy      fdz
+ 7774  7784  7795  7771     1      fdx      fdy      fdz
+ 7784  7795  7771  7773     1     -fdx      fdy      fdz
+ 7795  7771  7773  7769     1      fdx      fdy      fdz
+ 7873  7878  7888  7892     1     -fdx      fdy      fdz
+ 7875  7877  7873  7878     1     -fdx      fdy      fdz
+ 7877  7873  7878  7888     1      fdx      fdy      fdz
+ 7878  7888  7892  7875     1      fdx      fdy      fdz
+ 7888  7892  7875  7877     1     -fdx      fdy      fdz
+ 7892  7875  7877  7873     1      fdx      fdy      fdz
+ 7900  7905  7915  7926     1     -fdx      fdy      fdz
+ 7902  7904  7900  7905     1     -fdx      fdy      fdz
+ 7904  7900  7905  7915     1      fdx      fdy      fdz
+ 7905  7915  7926  7902     1      fdx      fdy      fdz
+ 7915  7926  7902  7904     1     -fdx      fdy      fdz
+ 7926  7902  7904  7900     1      fdx      fdy      fdz
+ 7993  7998  8008  8012     1     -fdx      fdy      fdz
+ 7995  7997  7993  7998     1     -fdx      fdy      fdz
+ 7997  7993  7998  8008     1      fdx      fdy      fdz
+ 7998  8008  8012  7995     1      fdx      fdy      fdz
+ 8008  8012  7995  7997     1     -fdx      fdy      fdz
+ 8012  7995  7997  7993     1      fdx      fdy      fdz
+ 8020  8025  8035  8046     1     -fdx      fdy      fdz
+ 8022  8024  8020  8025     1     -fdx      fdy      fdz
+ 8024  8020  8025  8035     1      fdx      fdy      fdz
+ 8025  8035  8046  8022     1      fdx      fdy      fdz
+ 8035  8046  8022  8024     1     -fdx      fdy      fdz
+ 8046  8022  8024  8020     1      fdx      fdy      fdz
+ 8113  8118  8128  8132     1     -fdx      fdy      fdz
+ 8115  8117  8113  8118     1     -fdx      fdy      fdz
+ 8117  8113  8118  8128     1      fdx      fdy      fdz
+ 8118  8128  8132  8115     1      fdx      fdy      fdz
+ 8128  8132  8115  8117     1     -fdx      fdy      fdz
+ 8132  8115  8117  8113     1      fdx      fdy      fdz
+ 8140  8145  8155  8166     1     -fdx      fdy      fdz
+ 8142  8144  8140  8145     1     -fdx      fdy      fdz
+ 8144  8140  8145  8155     1      fdx      fdy      fdz
+ 8145  8155  8166  8142     1      fdx      fdy      fdz
+ 8155  8166  8142  8144     1     -fdx      fdy      fdz
+ 8166  8142  8144  8140     1      fdx      fdy      fdz
+ 8279  8284  8294  8298     1     -fdx      fdy      fdz
+ 8281  8283  8279  8284     1     -fdx      fdy      fdz
+ 8283  8279  8284  8294     1      fdx      fdy      fdz
+ 8284  8294  8298  8281     1      fdx      fdy      fdz
+ 8294  8298  8281  8283     1     -fdx      fdy      fdz
+ 8298  8281  8283  8279     1      fdx      fdy      fdz
+ 8306  8311  8321  8332     1     -fdx      fdy      fdz
+ 8308  8310  8306  8311     1     -fdx      fdy      fdz
+ 8310  8306  8311  8321     1      fdx      fdy      fdz
+ 8311  8321  8332  8308     1      fdx      fdy      fdz
+ 8321  8332  8308  8310     1     -fdx      fdy      fdz
+ 8332  8308  8310  8306     1      fdx      fdy      fdz
+ 8399  8404  8414  8418     1     -fdx      fdy      fdz
+ 8401  8403  8399  8404     1     -fdx      fdy      fdz
+ 8403  8399  8404  8414     1      fdx      fdy      fdz
+ 8404  8414  8418  8401     1      fdx      fdy      fdz
+ 8414  8418  8401  8403     1     -fdx      fdy      fdz
+ 8418  8401  8403  8399     1      fdx      fdy      fdz
+ 8426  8431  8441  8452     1     -fdx      fdy      fdz
+ 8428  8430  8426  8431     1     -fdx      fdy      fdz
+ 8430  8426  8431  8441     1      fdx      fdy      fdz
+ 8431  8441  8452  8428     1      fdx      fdy      fdz
+ 8441  8452  8428  8430     1     -fdx      fdy      fdz
+ 8452  8428  8430  8426     1      fdx      fdy      fdz
+ 8519  8524  8534  8538     1     -fdx      fdy      fdz
+ 8521  8523  8519  8524     1     -fdx      fdy      fdz
+ 8523  8519  8524  8534     1      fdx      fdy      fdz
+ 8524  8534  8538  8521     1      fdx      fdy      fdz
+ 8534  8538  8521  8523     1     -fdx      fdy      fdz
+ 8538  8521  8523  8519     1      fdx      fdy      fdz
+ 8546  8551  8561  8572     1     -fdx      fdy      fdz
+ 8548  8550  8546  8551     1     -fdx      fdy      fdz
+ 8550  8546  8551  8561     1      fdx      fdy      fdz
+ 8551  8561  8572  8548     1      fdx      fdy      fdz
+ 8561  8572  8548  8550     1     -fdx      fdy      fdz
+ 8572  8548  8550  8546     1      fdx      fdy      fdz
+ 8639  8644  8654  8658     1     -fdx      fdy      fdz
+ 8641  8643  8639  8644     1     -fdx      fdy      fdz
+ 8643  8639  8644  8654     1      fdx      fdy      fdz
+ 8644  8654  8658  8641     1      fdx      fdy      fdz
+ 8654  8658  8641  8643     1     -fdx      fdy      fdz
+ 8658  8641  8643  8639     1      fdx      fdy      fdz
+ 8666  8671  8681  8692     1     -fdx      fdy      fdz
+ 8668  8670  8666  8671     1     -fdx      fdy      fdz
+ 8670  8666  8671  8681     1      fdx      fdy      fdz
+ 8671  8681  8692  8668     1      fdx      fdy      fdz
+ 8681  8692  8668  8670     1     -fdx      fdy      fdz
+ 8692  8668  8670  8666     1      fdx      fdy      fdz
+ 8770  8775  8785  8789     1     -fdx      fdy      fdz
+ 8772  8774  8770  8775     1     -fdx      fdy      fdz
+ 8774  8770  8775  8785     1      fdx      fdy      fdz
+ 8775  8785  8789  8772     1      fdx      fdy      fdz
+ 8785  8789  8772  8774     1     -fdx      fdy      fdz
+ 8789  8772  8774  8770     1      fdx      fdy      fdz
+ 8797  8802  8812  8823     1     -fdx      fdy      fdz
+ 8799  8801  8797  8802     1     -fdx      fdy      fdz
+ 8801  8797  8802  8812     1      fdx      fdy      fdz
+ 8802  8812  8823  8799     1      fdx      fdy      fdz
+ 8812  8823  8799  8801     1     -fdx      fdy      fdz
+ 8823  8799  8801  8797     1      fdx      fdy      fdz
+ 8890  8895  8905  8909     1     -fdx      fdy      fdz
+ 8892  8894  8890  8895     1     -fdx      fdy      fdz
+ 8894  8890  8895  8905     1      fdx      fdy      fdz
+ 8895  8905  8909  8892     1      fdx      fdy      fdz
+ 8905  8909  8892  8894     1     -fdx      fdy      fdz
+ 8909  8892  8894  8890     1      fdx      fdy      fdz
+ 8917  8922  8932  8943     1     -fdx      fdy      fdz
+ 8919  8921  8917  8922     1     -fdx      fdy      fdz
+ 8921  8917  8922  8932     1      fdx      fdy      fdz
+ 8922  8932  8943  8919     1      fdx      fdy      fdz
+ 8932  8943  8919  8921     1     -fdx      fdy      fdz
+ 8943  8919  8921  8917     1      fdx      fdy      fdz
+ 9021  9026  9036  9040     1     -fdx      fdy      fdz
+ 9023  9025  9021  9026     1     -fdx      fdy      fdz
+ 9025  9021  9026  9036     1      fdx      fdy      fdz
+ 9026  9036  9040  9023     1      fdx      fdy      fdz
+ 9036  9040  9023  9025     1     -fdx      fdy      fdz
+ 9040  9023  9025  9021     1      fdx      fdy      fdz
+ 9048  9053  9063  9074     1     -fdx      fdy      fdz
+ 9050  9052  9048  9053     1     -fdx      fdy      fdz
+ 9052  9048  9053  9063     1      fdx      fdy      fdz
+ 9053  9063  9074  9050     1      fdx      fdy      fdz
+ 9063  9074  9050  9052     1     -fdx      fdy      fdz
+ 9074  9050  9052  9048     1      fdx      fdy      fdz
+ 9152  9157  9167  9171     1     -fdx      fdy      fdz
+ 9154  9156  9152  9157     1     -fdx      fdy      fdz
+ 9156  9152  9157  9167     1      fdx      fdy      fdz
+ 9157  9167  9171  9154     1      fdx      fdy      fdz
+ 9167  9171  9154  9156     1     -fdx      fdy      fdz
+ 9171  9154  9156  9152     1      fdx      fdy      fdz
+ 9179  9184  9194  9205     1     -fdx      fdy      fdz
+ 9181  9183  9179  9184     1     -fdx      fdy      fdz
+ 9183  9179  9184  9194     1      fdx      fdy      fdz
+ 9184  9194  9205  9181     1      fdx      fdy      fdz
+ 9194  9205  9181  9183     1     -fdx      fdy      fdz
+ 9205  9181  9183  9179     1      fdx      fdy      fdz
+ 9283  9288  9298  9302     1     -fdx      fdy      fdz
+ 9285  9287  9283  9288     1     -fdx      fdy      fdz
+ 9287  9283  9288  9298     1      fdx      fdy      fdz
+ 9288  9298  9302  9285     1      fdx      fdy      fdz
+ 9298  9302  9285  9287     1     -fdx      fdy      fdz
+ 9302  9285  9287  9283     1      fdx      fdy      fdz
+ 9310  9315  9325  9336     1     -fdx      fdy      fdz
+ 9312  9314  9310  9315     1     -fdx      fdy      fdz
+ 9314  9310  9315  9325     1      fdx      fdy      fdz
+ 9315  9325  9336  9312     1      fdx      fdy      fdz
+ 9325  9336  9312  9314     1     -fdx      fdy      fdz
+ 9336  9312  9314  9310     1      fdx      fdy      fdz
+ 9403  9408  9418  9422     1     -fdx      fdy      fdz
+ 9405  9407  9403  9408     1     -fdx      fdy      fdz
+ 9407  9403  9408  9418     1      fdx      fdy      fdz
+ 9408  9418  9422  9405     1      fdx      fdy      fdz
+ 9418  9422  9405  9407     1     -fdx      fdy      fdz
+ 9422  9405  9407  9403     1      fdx      fdy      fdz
+ 9430  9435  9445  9456     1     -fdx      fdy      fdz
+ 9432  9434  9430  9435     1     -fdx      fdy      fdz
+ 9434  9430  9435  9445     1      fdx      fdy      fdz
+ 9435  9445  9456  9432     1      fdx      fdy      fdz
+ 9445  9456  9432  9434     1     -fdx      fdy      fdz
+ 9456  9432  9434  9430     1      fdx      fdy      fdz
+ 9534  9539  9549  9553     1     -fdx      fdy      fdz
+ 9536  9538  9534  9539     1     -fdx      fdy      fdz
+ 9538  9534  9539  9549     1      fdx      fdy      fdz
+ 9539  9549  9553  9536     1      fdx      fdy      fdz
+ 9549  9553  9536  9538     1     -fdx      fdy      fdz
+ 9553  9536  9538  9534     1      fdx      fdy      fdz
+ 9561  9566  9576  9587     1     -fdx      fdy      fdz
+ 9563  9565  9561  9566     1     -fdx      fdy      fdz
+ 9565  9561  9566  9576     1      fdx      fdy      fdz
+ 9566  9576  9587  9563     1      fdx      fdy      fdz
+ 9576  9587  9563  9565     1     -fdx      fdy      fdz
+ 9587  9563  9565  9561     1      fdx      fdy      fdz
+ 9665  9670  9680  9684     1     -fdx      fdy      fdz
+ 9667  9669  9665  9670     1     -fdx      fdy      fdz
+ 9669  9665  9670  9680     1      fdx      fdy      fdz
+ 9670  9680  9684  9667     1      fdx      fdy      fdz
+ 9680  9684  9667  9669     1     -fdx      fdy      fdz
+ 9684  9667  9669  9665     1      fdx      fdy      fdz
+ 9692  9697  9707  9718     1     -fdx      fdy      fdz
+ 9694  9696  9692  9697     1     -fdx      fdy      fdz
+ 9696  9692  9697  9707     1      fdx      fdy      fdz
+ 9697  9707  9718  9694     1      fdx      fdy      fdz
+ 9707  9718  9694  9696     1     -fdx      fdy      fdz
+ 9718  9694  9696  9692     1      fdx      fdy      fdz
+ 9829  9834  9844  9848     1     -fdx      fdy      fdz
+ 9831  9833  9829  9834     1     -fdx      fdy      fdz
+ 9833  9829  9834  9844     1      fdx      fdy      fdz
+ 9834  9844  9848  9831     1      fdx      fdy      fdz
+ 9844  9848  9831  9833     1     -fdx      fdy      fdz
+ 9848  9831  9833  9829     1      fdx      fdy      fdz
+ 9856  9861  9871  9882     1     -fdx      fdy      fdz
+ 9858  9860  9856  9861     1     -fdx      fdy      fdz
+ 9860  9856  9861  9871     1      fdx      fdy      fdz
+ 9861  9871  9882  9858     1      fdx      fdy      fdz
+ 9871  9882  9858  9860     1     -fdx      fdy      fdz
+ 9882  9858  9860  9856     1      fdx      fdy      fdz
+ 9993  9998 10008 10012     1     -fdx      fdy      fdz
+ 9995  9997  9993  9998     1     -fdx      fdy      fdz
+ 9997  9993  9998 10008     1      fdx      fdy      fdz
+ 9998 10008 10012  9995     1      fdx      fdy      fdz
+10008 10012  9995  9997     1     -fdx      fdy      fdz
+10012  9995  9997  9993     1      fdx      fdy      fdz
+10020 10025 10035 10046     1     -fdx      fdy      fdz
+10022 10024 10020 10025     1     -fdx      fdy      fdz
+10024 10020 10025 10035     1      fdx      fdy      fdz
+10025 10035 10046 10022     1      fdx      fdy      fdz
+10035 10046 10022 10024     1     -fdx      fdy      fdz
+10046 10022 10024 10020     1      fdx      fdy      fdz
+10157 10162 10172 10176     1     -fdx      fdy      fdz
+10159 10161 10157 10162     1     -fdx      fdy      fdz
+10161 10157 10162 10172     1      fdx      fdy      fdz
+10162 10172 10176 10159     1      fdx      fdy      fdz
+10172 10176 10159 10161     1     -fdx      fdy      fdz
+10176 10159 10161 10157     1      fdx      fdy      fdz
+10184 10189 10199 10210     1     -fdx      fdy      fdz
+10186 10188 10184 10189     1     -fdx      fdy      fdz
+10188 10184 10189 10199     1      fdx      fdy      fdz
+10189 10199 10210 10186     1      fdx      fdy      fdz
+10199 10210 10186 10188     1     -fdx      fdy      fdz
+10210 10186 10188 10184     1      fdx      fdy      fdz
+10288 10293 10303 10307     1     -fdx      fdy      fdz
+10290 10292 10288 10293     1     -fdx      fdy      fdz
+10292 10288 10293 10303     1      fdx      fdy      fdz
+10293 10303 10307 10290     1      fdx      fdy      fdz
+10303 10307 10290 10292     1     -fdx      fdy      fdz
+10307 10290 10292 10288     1      fdx      fdy      fdz
+10315 10320 10330 10341     1     -fdx      fdy      fdz
+10317 10319 10315 10320     1     -fdx      fdy      fdz
+10319 10315 10320 10330     1      fdx      fdy      fdz
+10320 10330 10341 10317     1      fdx      fdy      fdz
+10330 10341 10317 10319     1     -fdx      fdy      fdz
+10341 10317 10319 10315     1      fdx      fdy      fdz
+10452 10457 10467 10471     1     -fdx      fdy      fdz
+10454 10456 10452 10457     1     -fdx      fdy      fdz
+10456 10452 10457 10467     1      fdx      fdy      fdz
+10457 10467 10471 10454     1      fdx      fdy      fdz
+10467 10471 10454 10456     1     -fdx      fdy      fdz
+10471 10454 10456 10452     1      fdx      fdy      fdz
+10479 10484 10494 10505     1     -fdx      fdy      fdz
+10481 10483 10479 10484     1     -fdx      fdy      fdz
+10483 10479 10484 10494     1      fdx      fdy      fdz
+10484 10494 10505 10481     1      fdx      fdy      fdz
+10494 10505 10481 10483     1     -fdx      fdy      fdz
+10505 10481 10483 10479     1      fdx      fdy      fdz
+10583 10588 10598 10602     1     -fdx      fdy      fdz
+10585 10587 10583 10588     1     -fdx      fdy      fdz
+10587 10583 10588 10598     1      fdx      fdy      fdz
+10588 10598 10602 10585     1      fdx      fdy      fdz
+10598 10602 10585 10587     1     -fdx      fdy      fdz
+10602 10585 10587 10583     1      fdx      fdy      fdz
+10610 10615 10625 10636     1     -fdx      fdy      fdz
+10612 10614 10610 10615     1     -fdx      fdy      fdz
+10614 10610 10615 10625     1      fdx      fdy      fdz
+10615 10625 10636 10612     1      fdx      fdy      fdz
+10625 10636 10612 10614     1     -fdx      fdy      fdz
+10636 10612 10614 10610     1      fdx      fdy      fdz
+10703 10708 10718 10722     1     -fdx      fdy      fdz
+10705 10707 10703 10708     1     -fdx      fdy      fdz
+10707 10703 10708 10718     1      fdx      fdy      fdz
+10708 10718 10722 10705     1      fdx      fdy      fdz
+10718 10722 10705 10707     1     -fdx      fdy      fdz
+10722 10705 10707 10703     1      fdx      fdy      fdz
+10730 10735 10745 10756     1     -fdx      fdy      fdz
+10732 10734 10730 10735     1     -fdx      fdy      fdz
+10734 10730 10735 10745     1      fdx      fdy      fdz
+10735 10745 10756 10732     1      fdx      fdy      fdz
+10745 10756 10732 10734     1     -fdx      fdy      fdz
+10756 10732 10734 10730     1      fdx      fdy      fdz
+10869 10874 10884 10888     1     -fdx      fdy      fdz
+10871 10873 10869 10874     1     -fdx      fdy      fdz
+10873 10869 10874 10884     1      fdx      fdy      fdz
+10874 10884 10888 10871     1      fdx      fdy      fdz
+10884 10888 10871 10873     1     -fdx      fdy      fdz
+10888 10871 10873 10869     1      fdx      fdy      fdz
+10896 10901 10911 10922     1     -fdx      fdy      fdz
+10898 10900 10896 10901     1     -fdx      fdy      fdz
+10900 10896 10901 10911     1      fdx      fdy      fdz
+10901 10911 10922 10898     1      fdx      fdy      fdz
+10911 10922 10898 10900     1     -fdx      fdy      fdz
+10922 10898 10900 10896     1      fdx      fdy      fdz
+11000 11005 11015 11019     1     -fdx      fdy      fdz
+11002 11004 11000 11005     1     -fdx      fdy      fdz
+11004 11000 11005 11015     1      fdx      fdy      fdz
+11005 11015 11019 11002     1      fdx      fdy      fdz
+11015 11019 11002 11004     1     -fdx      fdy      fdz
+11019 11002 11004 11000     1      fdx      fdy      fdz
+11027 11032 11042 11053     1     -fdx      fdy      fdz
+11029 11031 11027 11032     1     -fdx      fdy      fdz
+11031 11027 11032 11042     1      fdx      fdy      fdz
+11032 11042 11053 11029     1      fdx      fdy      fdz
+11042 11053 11029 11031     1     -fdx      fdy      fdz
+11053 11029 11031 11027     1      fdx      fdy      fdz
+11120 11125 11135 11139     1     -fdx      fdy      fdz
+11122 11124 11120 11125     1     -fdx      fdy      fdz
+11124 11120 11125 11135     1      fdx      fdy      fdz
+11125 11135 11139 11122     1      fdx      fdy      fdz
+11135 11139 11122 11124     1     -fdx      fdy      fdz
+11139 11122 11124 11120     1      fdx      fdy      fdz
+11147 11152 11162 11173     1     -fdx      fdy      fdz
+11149 11151 11147 11152     1     -fdx      fdy      fdz
+11151 11147 11152 11162     1      fdx      fdy      fdz
+11152 11162 11173 11149     1      fdx      fdy      fdz
+11162 11173 11149 11151     1     -fdx      fdy      fdz
+11173 11149 11151 11147     1      fdx      fdy      fdz
+11251 11256 11266 11270     1     -fdx      fdy      fdz
+11253 11255 11251 11256     1     -fdx      fdy      fdz
+11255 11251 11256 11266     1      fdx      fdy      fdz
+11256 11266 11270 11253     1      fdx      fdy      fdz
+11266 11270 11253 11255     1     -fdx      fdy      fdz
+11270 11253 11255 11251     1      fdx      fdy      fdz
+11278 11283 11293 11304     1     -fdx      fdy      fdz
+11280 11282 11278 11283     1     -fdx      fdy      fdz
+11282 11278 11283 11293     1      fdx      fdy      fdz
+11283 11293 11304 11280     1      fdx      fdy      fdz
+11293 11304 11280 11282     1     -fdx      fdy      fdz
+11304 11280 11282 11278     1      fdx      fdy      fdz
+11415 11420 11430 11434     1     -fdx      fdy      fdz
+11417 11419 11415 11420     1     -fdx      fdy      fdz
+11419 11415 11420 11430     1      fdx      fdy      fdz
+11420 11430 11434 11417     1      fdx      fdy      fdz
+11430 11434 11417 11419     1     -fdx      fdy      fdz
+11434 11417 11419 11415     1      fdx      fdy      fdz
+11442 11447 11457 11468     1     -fdx      fdy      fdz
+11444 11446 11442 11447     1     -fdx      fdy      fdz
+11446 11442 11447 11457     1      fdx      fdy      fdz
+11447 11457 11468 11444     1      fdx      fdy      fdz
+11457 11468 11444 11446     1     -fdx      fdy      fdz
+11468 11444 11446 11442     1      fdx      fdy      fdz
+11546 11551 11561 11565     1     -fdx      fdy      fdz
+11548 11550 11546 11551     1     -fdx      fdy      fdz
+11550 11546 11551 11561     1      fdx      fdy      fdz
+11551 11561 11565 11548     1      fdx      fdy      fdz
+11561 11565 11548 11550     1     -fdx      fdy      fdz
+11565 11548 11550 11546     1      fdx      fdy      fdz
+11573 11578 11588 11599     1     -fdx      fdy      fdz
+11575 11577 11573 11578     1     -fdx      fdy      fdz
+11577 11573 11578 11588     1      fdx      fdy      fdz
+11578 11588 11599 11575     1      fdx      fdy      fdz
+11588 11599 11575 11577     1     -fdx      fdy      fdz
+11599 11575 11577 11573     1      fdx      fdy      fdz
+11666 11671 11681 11685     1     -fdx      fdy      fdz
+11668 11670 11666 11671     1     -fdx      fdy      fdz
+11670 11666 11671 11681     1      fdx      fdy      fdz
+11671 11681 11685 11668     1      fdx      fdy      fdz
+11681 11685 11668 11670     1     -fdx      fdy      fdz
+11685 11668 11670 11666     1      fdx      fdy      fdz
+11693 11698 11708 11719     1     -fdx      fdy      fdz
+11695 11697 11693 11698     1     -fdx      fdy      fdz
+11697 11693 11698 11708     1      fdx      fdy      fdz
+11698 11708 11719 11695     1      fdx      fdy      fdz
+11708 11719 11695 11697     1     -fdx      fdy      fdz
+11719 11695 11697 11693     1      fdx      fdy      fdz
+11830 11835 11845 11849     1     -fdx      fdy      fdz
+11832 11834 11830 11835     1     -fdx      fdy      fdz
+11834 11830 11835 11845     1      fdx      fdy      fdz
+11835 11845 11849 11832     1      fdx      fdy      fdz
+11845 11849 11832 11834     1     -fdx      fdy      fdz
+11849 11832 11834 11830     1      fdx      fdy      fdz
+11857 11862 11872 11883     1     -fdx      fdy      fdz
+11859 11861 11857 11862     1     -fdx      fdy      fdz
+11861 11857 11862 11872     1      fdx      fdy      fdz
+11862 11872 11883 11859     1      fdx      fdy      fdz
+11872 11883 11859 11861     1     -fdx      fdy      fdz
+11883 11859 11861 11857     1      fdx      fdy      fdz
+11950 11955 11965 11969     1     -fdx      fdy      fdz
+11952 11954 11950 11955     1     -fdx      fdy      fdz
+11954 11950 11955 11965     1      fdx      fdy      fdz
+11955 11965 11969 11952     1      fdx      fdy      fdz
+11965 11969 11952 11954     1     -fdx      fdy      fdz
+11969 11952 11954 11950     1      fdx      fdy      fdz
+11977 11982 11992 12003     1     -fdx      fdy      fdz
+11979 11981 11977 11982     1     -fdx      fdy      fdz
+11981 11977 11982 11992     1      fdx      fdy      fdz
+11982 11992 12003 11979     1      fdx      fdy      fdz
+11992 12003 11979 11981     1     -fdx      fdy      fdz
+12003 11979 11981 11977     1      fdx      fdy      fdz
+12081 12086 12096 12100     1     -fdx      fdy      fdz
+12083 12085 12081 12086     1     -fdx      fdy      fdz
+12085 12081 12086 12096     1      fdx      fdy      fdz
+12086 12096 12100 12083     1      fdx      fdy      fdz
+12096 12100 12083 12085     1     -fdx      fdy      fdz
+12100 12083 12085 12081     1      fdx      fdy      fdz
+12108 12113 12123 12134     1     -fdx      fdy      fdz
+12110 12112 12108 12113     1     -fdx      fdy      fdz
+12112 12108 12113 12123     1      fdx      fdy      fdz
+12113 12123 12134 12110     1      fdx      fdy      fdz
+12123 12134 12110 12112     1     -fdx      fdy      fdz
+12134 12110 12112 12108     1      fdx      fdy      fdz
+12212 12217 12227 12231     1     -fdx      fdy      fdz
+12214 12216 12212 12217     1     -fdx      fdy      fdz
+12216 12212 12217 12227     1      fdx      fdy      fdz
+12217 12227 12231 12214     1      fdx      fdy      fdz
+12227 12231 12214 12216     1     -fdx      fdy      fdz
+12231 12214 12216 12212     1      fdx      fdy      fdz
+12239 12244 12254 12265     1     -fdx      fdy      fdz
+12241 12243 12239 12244     1     -fdx      fdy      fdz
+12243 12239 12244 12254     1      fdx      fdy      fdz
+12244 12254 12265 12241     1      fdx      fdy      fdz
+12254 12265 12241 12243     1     -fdx      fdy      fdz
+12265 12241 12243 12239     1      fdx      fdy      fdz
+12376 12381 12391 12395     1     -fdx      fdy      fdz
+12378 12380 12376 12381     1     -fdx      fdy      fdz
+12380 12376 12381 12391     1      fdx      fdy      fdz
+12381 12391 12395 12378     1      fdx      fdy      fdz
+12391 12395 12378 12380     1     -fdx      fdy      fdz
+12395 12378 12380 12376     1      fdx      fdy      fdz
+12403 12408 12418 12429     1     -fdx      fdy      fdz
+12405 12407 12403 12408     1     -fdx      fdy      fdz
+12407 12403 12408 12418     1      fdx      fdy      fdz
+12408 12418 12429 12405     1      fdx      fdy      fdz
+12418 12429 12405 12407     1     -fdx      fdy      fdz
+12429 12405 12407 12403     1      fdx      fdy      fdz
+12507 12512 12522 12526     1     -fdx      fdy      fdz
+12509 12511 12507 12512     1     -fdx      fdy      fdz
+12511 12507 12512 12522     1      fdx      fdy      fdz
+12512 12522 12526 12509     1      fdx      fdy      fdz
+12522 12526 12509 12511     1     -fdx      fdy      fdz
+12526 12509 12511 12507     1      fdx      fdy      fdz
+12534 12539 12549 12560     1     -fdx      fdy      fdz
+12536 12538 12534 12539     1     -fdx      fdy      fdz
+12538 12534 12539 12549     1      fdx      fdy      fdz
+12539 12549 12560 12536     1      fdx      fdy      fdz
+12549 12560 12536 12538     1     -fdx      fdy      fdz
+12560 12536 12538 12534     1      fdx      fdy      fdz
